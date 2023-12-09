@@ -43,7 +43,7 @@ gettools () {
     if [ ! -d "clang" ]; then
     echo ===========================
     echo Downloading Clang toolchain
-    CLANGTC="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-qpr2-release/clang-r383902b1.tar.gz"
+    CLANGTC="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android12-qpr2-release/clang-r416183b.tar.gz"
     if [ $ISACTIONS = 1 ]; then
     curl -s -o clang/clang.zip --create-dirs ${CLANGTC}
     else curl -o clang/clang.zip --create-dirs ${CLANGTC}
