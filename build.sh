@@ -9,7 +9,7 @@ DEFCONFIG=gki_defconfig # set preferred existing defconfig in arch/arm64/configs
                
 KERNEL_SOURCE=https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6375 # set to a preferred remote URL (e.g https://github.com/torvalds/linux...)
 
-KBRANCH="-b thirteen" # if not changed, use default kernel branch
+KBRANCH="thirteen" # if not changed, use default kernel branch
            # set to "-b <kernel branch name>" if you want to
 CLANGDL="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android12-release/clang-r416183b.tar.gz"
         # direct link to Clang toolchain
