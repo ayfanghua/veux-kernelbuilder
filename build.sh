@@ -3,7 +3,7 @@
 #      REQUIRED SETUP
 KSU=ndef # set to 1 to enable KernelSU; if not leave the same
 
-DEFCONFIG=qgki_defconfig # set preferred existing defconfig in arch/arm64/configs
+DEFCONFIG=gki_defconfig # set preferred existing defconfig in arch/arm64/configs
                # or if arch/arm64/configs does not contain it, specify 
                # a defconfig in THE SAME DIRECTORY WITH build.sh
                
