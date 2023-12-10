@@ -9,7 +9,7 @@ DEFCONFIG=qgki_defconfig # set preferred existing defconfig in arch/arm64/config
                
 KERNEL_SOURCE=https://github.com/RedEnemy30/kernel_xiaomi_veux # set to a preferred remote URL (e.g https://github.com/torvalds/linux...)
 
-ATBRANCH="veux" # if not changed, use default kernel branch
+ATBRANCH="up-2" # if not changed, use default kernel branch
             # set to "-b <kernel branch name>" if you want to
 #############################
 
